@@ -1,0 +1,232 @@
+
+ .main-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+  }
+
+
+  .Title {
+    position: absolute;
+    font-size: 8px;
+    text-align: start;
+    width: 100%;
+    color: white;
+    padding-left: 28px;
+    top: 51px;
+}
+canvas.chartjs-render-monitor {
+    min-height: 200px;
+    margin-top: 50px;
+}
+.panel-header-lg {
+    height: 380px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#06c9fd) ,to(#8b39f7));
+    background: -webkit-linear-gradient(top, #06c9fd ,#8b39f7);
+    background: -o-linear-gradient(top, #06c9fd ,#8b39f7);
+    background: linear-gradient(to top, #06c9fd ,#8b39f7);
+}
+.panel-header{
+  background: -webkit-gradient(linear, left top, left bottom, from(#06c9fd) ,to(#8b39f7));
+  background: -webkit-linear-gradient(top, #06c9fd ,#8b39f7);
+  background: -o-linear-gradient(top, #06c9fd ,#8b39f7);
+  background: linear-gradient(to top, #06c9fd ,#8b39f7);
+}
+
+
+.loginForm {
+    /* margin-top: 40%; */
+    height: 50%;
+    width: 40%;
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    border-radius: 5px;
+}
+.input-group, .form-group {
+    margin-bottom: 10px;
+    text-align: start;
+    position: relative;
+}
+/*.row{
+    margin: 0 auto;
+    width: 50%;
+}*/
+.card-user .image {
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wraperloginform {
+    flex-direction: column;
+    display: flex;  
+    width:80%;
+}
+.loginformInput {
+    margin-top: 20px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border:1px solid #cccccc;
+}
+.loginformInput:focus{
+  outline: 0;
+}
+
+
+.overlayloading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    text-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 10000;
+    opacity: 0.7;
+}
+.loginContainer {
+    align-items: center;
+    position: fixed;
+    /* padding-top: 10%; */
+    /* padding-left: 30%; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#06c9fd) ,to(#39f764));
+    background: -webkit-linear-gradient(top, #06c9fd ,#39f764);
+    background: -o-linear-gradient(top, #06c9fd ,#39f764);
+    background: linear-gradient(to bottom, #06c9fd ,#39f764);
+    height: 100%;
+    width: 100%;
+}
+
+.card-user .card-body {
+    min-height: 240px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-chart .chart-area {
+    height: 190px;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3.tottalactiveuser {
+    font-size: 41px;
+    font-weight: 600;
+    color: #40a9f4;
+}
+
+img.user_image {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+td {
+    font-size: 17px;
+    color: #4c4949;
+}
+.card-header {
+    text-align: center;
+
+}
+
+.chart-area {
+    display: flex;
+    flex-direction: column;
+}
+i.now-ui-icons.users_single-02.cardIcon{
+    font-size: 42px;
+    color: #40a9f4;
+    font-weight: 700;
+}
+i.now-ui-icons.sport_user-run.cardIcon{
+    font-size: 42px;
+    color: #40a9f4;
+    font-weight: 700;
+}
+i.now-ui-icons.education_atom.cardIcon{
+    font-size: 42px;
+    color: #40a9f4;
+    font-weight: 700;
+}
+span.rank {
+    margin-right: 20px;
+}
+.leaderboard.card-body {
+    max-height: 700px;
+    overflow: scroll;
+}
+button.btn.btn-secondary {
+    margin-top: 20px;
+    background: #00c1f2;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.card-user.login.card{
+    border-radius: 14px;
+}
+h1.loginTitle {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+i.fas.fa-rupee-sign {
+    /* font-weight: 600; */
+    font-size: 15px;
+    color: #8a8989;
+}
+tr {
+    height: 74px;
+}
+i.material-icons.calories {
+    font-size: 45px;
+    color: #40a9f4;
+}
+.row{
+  justify-content:center;
+}
+i.fas.fa-tachometer-alt {
+    font-size: 18px;
+    margin-top: 3px;
+}
+.wraperMemberlist {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    left: 0px;
+}
+.teamBoardClosebtn {
+    position: absolute;
+    font-size: 20px;
+    top: 25px;
+}
+
+
