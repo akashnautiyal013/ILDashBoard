@@ -146,7 +146,7 @@ const dashboardPanelChart = {
         layout: {
             padding: {
                 left: 20,
-                right: 20,
+                right: 200,
                 top: 0,
                 bottom: 0
             }

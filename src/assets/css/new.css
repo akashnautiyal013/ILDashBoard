@@ -4,8 +4,7 @@
     float: right;
     width: 100%;
   }
-
-
+ 
   .Title {
     position: absolute;
     font-size: 8px;
@@ -120,6 +119,8 @@ canvas.chartjs-render-monitor {
 
 }
 
+
+
 .card-chart .chart-area {
     height: 190px;
     width: calc(100% + 30px);
@@ -173,9 +174,13 @@ i.now-ui-icons.education_atom.cardIcon{
     color: #40a9f4;
     font-weight: 700;
 }
-span.rank {
-    margin-right: 20px;
+.rank {
+    justify-content: center;
+    display: -webkit-inline-box;
+    min-width: 250px;
 }
+
+
 .leaderboard.card-body {
     max-height: 700px;
     overflow: scroll;
@@ -196,10 +201,15 @@ h1.loginTitle {
     font-weight: 500;
     margin-bottom: 10px;
 }
-i.fas.fa-rupee-sign {
+.text-right span i.fas.fa-rupee-sign {
     /* font-weight: 600; */
     font-size: 15px;
     color: #8a8989;
+    margin-right: 10px;
+
+}
+.label span i.fas.fa-rupee-sign {
+    font-size: 22px;
 }
 tr {
     height: 74px;
@@ -227,6 +237,307 @@ i.fas.fa-tachometer-alt {
     position: absolute;
     font-size: 20px;
     top: 25px;
+}
+
+.iballwrap {
+    border: 1px red;
+    background: linear-gradient(to top, #39f764,#06c9fd);
+    margin-bottom: 25px;
+    height: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 46px;
+}
+
+
+p.iballtext {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    background: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 44px;
+}
+.iballtext span {
+    color: #56cafb;
+    font-size: 22px;
+}
+.carousel.carousel-slider {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+.user_name_text_testimonial{
+    margin-top:20px;
+}
+li.slide{
+    min-width:20%;
+    padding-right: 100px
+}
+
+tr.teamRowWrap:hover {
+    background: #00c1f2;
+    color: white;
+}
+tr.teamRowWrap:hover td {
+    color: white;
+    font-weight: 600;
+}
+tr.teamRowWrap:hover td span i{
+    color:white;
+}
+td {
+    padding:1px 1px 2px 20px !important;
+}
+td.text-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+    margin-right: 15px;
+}
+
+tr.firstRank {
+    flex-direction: row;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+
+    
+}
+.firstRank td.text-right{
+    justify-content: flex-end;
+}
+
+.firstRank td {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 75px;
+}
+.firstRank td span p{
+    margin: 0;
+    padding:0;
+}
+tr.secondRank {
+    flex-direction: row;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+
+    
+}
+.secondRank td.text-right{
+    justify-content: flex-end;
+}
+
+.secondRank td {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 75px;
+}
+.secondRank td span p{
+    margin: 0;
+    padding:0;
+}
+
+
+tr.thirdRank {
+    flex-direction: row;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+
+    
+}
+.thirdRank td.text-right{
+    justify-content: flex-end;
+}
+
+.thirdRank td {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 75px;
+}
+.thirdRank td span p{
+    margin: 0;
+    padding:0;
+}
+
+
+
+.iballtext {
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 150px;
+    color: rgba(243, 205, 105, 0.49);
+    -webkit-background-clip: text;
+    -webkit-animation-name: iballtext;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    text-shadow:0 0px 0px rgba(16, 189, 228, 0.78);
+}
+
+@-webkit-keyframes iballtext {
+    0%, 30% {
+        background-position: -1000px;
+    }
+    40% {
+        background-position: top left;
+    }
+    80% {
+        background-position: top right;
+    }
+    100% {
+        background-position: 1000px;
+    }
+}
+
+
+
+
+.firstRank td span.rank{
+   display: inline-flex;
+}
+.secondRank td span.rank{
+   display: inline-flex;
+}
+.thirdRank td span.rank{
+    display: inline-flex;
+}
+ td span.rank{
+    display: inline-flex;
+}
+
+.cardsWrapper.row {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: overlay;
+}
+
+
+.wraperRemainingDays {
+    position: absolute;
+    right: 45px;
+    top: 115px;
+    height: 200px;
+    width: 162px;
+    flex-direction: column;
+    display: flex;
+}
+.totalRaisedAmountWrap {
+    -ms-flex: 1 1;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+        color: white;
+}
+.totalRaisedAmountWrap h4 {
+    padding: 0;
+    margin: 0;
+
+}
+.totalRaisedAmountWrap p {
+    padding: 0;
+    margin: 0;
+
+}
+.totalTimeLeftWrap h4 {
+    padding: 0;
+    margin: 0;
+}
+.totalTimeLeftWrap p {
+    padding: 0;
+    margin: 0;
+}
+.totalTimeLeftWrap {
+    -ms-flex: 1 1;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+        color: white;
+}
+.progressbar-container {
+    background: #dbdbdb;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.progressbar-progress {
+
+    background: linear-gradient(to left, #39f764,#06c9fd);
+    width: 75%;
+    transition: width 200ms;
+    height: 10px;
+    border-radius: 5px;
+}
+.textWrapCard {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img.causeCardImage{
+  width:100%;
+  height:170px;
+}
+h2.causeTitle {
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 26px;
+}
+p.remainingPercent{
+    text-align: end;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+.stats.goal {
+    text-align: end;
+}
+p.causeLabel {
+    margin: 0;
+    margin-top: 15px;
+    color:#9A9A9A;
+}
+.Scroll_view{
+  -webkit-transition: 1.3s;
+  -moz-transition: 1.3s;
+  transition: 1.3s;     
+  
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear;
+  display:flex;
+  flex-direction:row;
+  margin-left:0px;
+}
+.Scroll_view:hover{
+  margin-left: -350px;
+}
+.cardTextWrapper{
+    max-width: 350px !important;
+    flex:none;
+}
+.iballtext span img{
+    height:35px;
 }
 
 
